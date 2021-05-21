@@ -29,6 +29,19 @@ the dataset contains 25 columns, they are:
 24. lat = latitude
 25. long = longitude
 
+# Data Cleaning and Feature Engineering
+
+- drop the unnecessary columns for the model, there are id, url, region, region_url, VIN, image_url, description, lat, long, model, county, state, title_status, paint_color
+- Filter the price between $1000 to $50000
+- transform the year column to the age column
+- set the >= 1 threshold for the age column
+- set the >=14000 threshold for the odometer column, and rid off the outlier with max data 9999999
+- drop the duplicates data
+- fill Not Available data with 'other' in manufacturer column
+
+# Machine Learning Model
+
+
 Reference: 
 
 - [https://github.com/codebasics/py/blob/master/ML/15_gridsearch/15_grid_search.ipynb](https://github.com/codebasics/py/blob/master/ML/15_gridsearch/15_grid_search.ipynb)
