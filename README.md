@@ -41,6 +41,17 @@ the dataset contains 25 columns, they are:
 
 # Machine Learning Model
 
+- Change the Categorical data to numerical for machine learning using labelencoder for the better performance than using dummy, cause it will create more features and affecting the computation cost
+- because the range of the data like age, odometer are very diffenrent, so we need to do Normalization or Standarization. here Iam using Standarization.
+- split the dataset to 80% training and 20% test
+- compare the regression models in default setting and pick the top 3 performance using R2 in regression problems
+- do the cross validation to do a performance comparison using cross validation and not.
+- tuning each parameter using the GridSearchCV to see the effect in the model and see the optimal range for searching the global optimal using RandomizedSearchCV later
+- do the Hyperparameter Tuning using RandomizedSearchCV using the optimal range of the each parameters in previous process
+- check the overfitting / underfitting for the model best estimator
+- do the exactly the same process for the other models
+- recap the final result
+- Final predicted model
 
 Reference: 
 
