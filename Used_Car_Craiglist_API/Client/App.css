@@ -1,14 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Roboto:300);
 
-
-
-.bottompredict {
-  position: absolute;
-  top: 240px;
-  left: 1510px;
-  font-size: 18px;
-}
-
 .form {
 	max-width: 270px;
 	font-family: "Lucida Grande", Tahoma, Verdana, sans-serif;
@@ -27,7 +18,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
-  width: 100%;
+  width: 76%;
   border: 0;
   margin: 0 0 10px;
   padding: 10px;
@@ -41,7 +32,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -55,7 +46,7 @@ h2 {
   font-family: "Roboto", sans-serif;
   outline: 0;
   background: #f2f2f2;
-  width: 100%;
+  width: 76%;
   border: 0;
   margin: 0 0 10px;
   padding: 10px;
@@ -69,7 +60,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -83,7 +74,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -97,7 +88,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -111,7 +102,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -125,7 +116,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -139,7 +130,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
@@ -153,7 +144,7 @@ h2 {
     font-family: "Roboto", sans-serif;
     outline: 0;
     background: #f2f2f2;
-    width: 100%;
+    width: 76%;
     border: 0;
     margin: 0 0 10px;
     padding: 10px;
