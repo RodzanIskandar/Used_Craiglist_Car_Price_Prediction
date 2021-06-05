@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Used Car Craiglist Price Prediction</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="app.js"></script>
+	<link rel="stylesheet" href="app.css">
+</head>
+<body>
+<div class="img"></div>
+<form class="form">
+
+
+    <div class="topleft">
+    <h2>Manufacturer</h2>
+	<div>
+  <select class="manufacturer" name="" id="uiManufacturer">
+    <option value="" disabled="disabled" selected="selected">Choose the manufacturer</option>
+		<option>Toyota</option>
+        <option>Ford</option>
+  </select>
+</div>
+</div>
+
+<div class='left1'>
+<h2>Condition</h2>
+<div>
+<select class="condition" name="" id="uiCondition">
+<option value="" disabled="disabled" selected="selected">How is the condition</option>
+    <option>Excelent</option>
+    <option>salvage</option>
+</select>
+</div>
+</div>
+
+<div class='middle1'>
+<h2>Cylinders</h2>
+<div>
+<select class="cylinders" name="" id="uiCylinders">
+<option value="" disabled="disabled" selected="selected">How many cylinders?</option>
+    <option>8 cylinders</option>
+    <option>4 cylinders</option>
+</select>
+</div>
+</div>
+
+<div class='right1'>
+<h2>Fuel</h2>
+<div>
+<select class="fuel" name="" id="uiFuel">
+<option value="" disabled="disabled" selected="selected">The Fuel type</option>
+    <option>gas</option>
+    <option>diesel</option>
+</select>
+</div>
+</div>
+
+<div class='topright'>
+	<h2>odometer</h2>
+    <input class="odometer"  type="text" id="uiOdometer" class="floatLabel" name="Odometer" value="9999999">
+</div>
+
+<div class='bottomleft'>
+<h2>Transmission</h2>
+<div>
+<select class="transmission" name="" id="uiTransmission">
+<option value="" disabled="disabled" selected="selected">The transmission type</option>
+    <option>automatic</option>
+    <option>manual</option>
+</select>
+</div>  
+</div>
+
+<div class='left2'>
+<h2>Drive</h2>
+<div>
+<select class="drive" name="" id="uiDrive">
+<option value="" disabled="disabled" selected="selected">The Drive type</option>
+    <option>fwd</option>
+    <option>4wd</option>
+</select>
+</div>
+</div>
+
+<div class='middle2'>
+<h2>Type</h2>
+<div>
+<select class="type" name="" id="uiType">
+<option value="" disabled="disabled" selected="selected">The type of the car</option>
+    <option>suv</option>
+    <option>coupe</option>
+</select>
+</div>
+</div>
+
+<div class='right2'>
+<h2>age</h2>
+<input class="age"  type="text" id="uiAge" class="floatLabel" name="Age" value="10">
+</div>
+
+<div class='bottomright' >
+<h2>Car Size</h2>
+<div>
+<select class="car_size" name="" id="uiCar_size">
+<option value="" disabled="disabled" selected="selected">The size type</option>
+    <option>full-size</option>
+    <option>mid-size</option>
+</select>
+</div>
+</div>
+
+
+<button class="submit" onclick="onClickedPredictThePrice()" type="button">Predict The Price</button>
+<div class='toppredict' >
+<div id="uiPredictThePrice" class="result">	<h2></h2> </div>
+</div>
+	</form>
+
+</body>
+</html>
