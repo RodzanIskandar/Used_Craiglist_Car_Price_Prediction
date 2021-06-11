@@ -63,5 +63,8 @@ in this step, I built simple local web API. Iam using Flask API to built local s
 
 Reference: 
 
+
 - [https://github.com/codebasics/py/blob/master/ML/15_gridsearch/15_grid_search.ipynb](https://github.com/codebasics/py/blob/master/ML/15_gridsearch/15_grid_search.ipynb)
+- [https://medium.com/purwadhikaconnect/metode-feature-importance-dalam-data-science-yang-perlu-kamu-ketahui-6b4f35db6476](https://medium.com/purwadhikaconnect/metode-feature-importance-dalam-data-science-yang-perlu-kamu-ketahui-6b4f35db6476)
+- [https://towardsdatascience.com/is-your-model-overfitting-or-maybe-underfitting-an-example-using-a-neural-network-in-python-4faf155398d2](https://towardsdatascience.com/is-your-model-overfitting-or-maybe-underfitting-an-example-using-a-neural-network-in-python-4faf155398d2)
 - [https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb](https://github.com/justmarkham/scikit-learn-videos/blob/master/08_grid_search.ipynb)
