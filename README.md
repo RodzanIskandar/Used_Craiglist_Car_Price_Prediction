@@ -53,6 +53,8 @@ the dataset contains 25 columns, they are:
 - recap the final result
 - Final predicted model
 
+![](https://github.com/RodzanIskandar/used_craiglist_car_price_prediction/blob/main/images/regression%20model%20compare.png)
+
 # Productionization
 in this step, I built simple local web API. Iam using Flask API to built local server working as back end, meanwhile in the front end I make App.html, App.css and App.js. I customized the back end and front end process based on [this github repository](https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices). 
 
