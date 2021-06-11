@@ -53,6 +53,11 @@ the dataset contains 25 columns, they are:
 - recap the final result
 - Final predicted model
 
+# Productionization
+in this step, I built simple local web API. Iam using Flask API to built local server working as back end, meanwhile in the front end I make App.html, App.css and App.js. I customized the back end and front end process based on [this github repository](https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices). 
+![](https://github.com/RodzanIskandar/used_craiglist_car_price_prediction/blob/main/images/Api%201.png)
+![](https://github.com/RodzanIskandar/used_craiglist_car_price_prediction/blob/main/images/Api%202.png)
+
 Reference: 
 
 - [https://github.com/codebasics/py/blob/master/ML/15_gridsearch/15_grid_search.ipynb](https://github.com/codebasics/py/blob/master/ML/15_gridsearch/15_grid_search.ipynb)
