@@ -1,4 +1,4 @@
-# used_car_price_prediction
+# Used Car Price Prediction
 In this project, Iam designing machine learning regression model to able to predict used car price according to craiglist website data. So the seller can estimate their used car price based on car spesification and condition. The final result of this project is a simple website API so user can use directly in website to predict their used car.
 
 # Dataset
