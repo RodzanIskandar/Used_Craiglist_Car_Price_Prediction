@@ -1,7 +1,8 @@
 # Used Car Price Prediction
+## Overview
 In this project, Iam designing machine learning regression model to able to predict used car price according to craiglist website data. So the seller can estimate their used car price based on car spesification and condition. The final result of this project is a simple website API so user can use directly in website to predict their used car.
 
-# Dataset
+## Dataset
 Iam using vehivle.csv in used car dataset from kaggle, [https://www.kaggle.com/austinreese/craigslist-carstrucks-data](https://www.kaggle.com/austinreese/craigslist-carstrucks-data) to predict second hand price based on the condition of the car within dataset. This dataset is scraped from craiglist website
 the dataset contains 25 columns, they are:
 
@@ -31,7 +32,7 @@ the dataset contains 25 columns, they are:
 24. lat = latitude
 25. long = longitude
 
-# Data Cleaning and Feature Engineering
+## Data Cleaning and Feature Engineering
 
 - drop the unnecessary columns for the model, there are id, url, region, region_url, VIN, image_url, description, lat, long, model, county, state, title_status, paint_color
 - Filter the price between $1000 to $50000
@@ -41,7 +42,7 @@ the dataset contains 25 columns, they are:
 - drop the duplicates data
 - fill Not Available data with 'other' in manufacturer column
 
-# Machine Learning Model
+## Machine Learning Model
 
 - Change the Categorical data to numerical for machine learning using labelencoder for the better performance than using dummy, cause it will create more features and affecting the computation cost
 - because the range of the data like age, odometer are very diffenrent, so we need to do Normalization or Standarization. here Iam using Standarization.
@@ -57,7 +58,7 @@ the dataset contains 25 columns, they are:
 
 ![](https://github.com/RodzanIskandar/used_craiglist_car_price_prediction/blob/main/images/regression%20model%20compare.png)
 
-# Productionization
+## Productionization
 in this step, I built simple local web API. Iam using Flask API to built local server working as back end, meanwhile in the front end I make App.html, App.css and App.js. I customized the back end and front end process based on [this github repository](https://github.com/codebasics/py/tree/master/DataScience/BangloreHomePrices). 
 
 ![](https://github.com/RodzanIskandar/used_craiglist_car_price_prediction/blob/main/images/Api%201.png)
