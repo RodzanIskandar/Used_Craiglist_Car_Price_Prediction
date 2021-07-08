@@ -1,4 +1,6 @@
 # used_car_price_prediction
+In this project, Iam designing machine learning regression model to able to predict used car price according to craiglist website data. So the seller can estimate their used car price based on car spesification and condition. The final result of this project is a simple website API so user can use directly in website to predict their used car.
+
 # Dataset
 Iam using vehivle.csv in used car dataset from kaggle, [https://www.kaggle.com/austinreese/craigslist-carstrucks-data](https://www.kaggle.com/austinreese/craigslist-carstrucks-data) to predict second hand price based on the condition of the car within dataset. This dataset is scraped from craiglist website
 the dataset contains 25 columns, they are:
